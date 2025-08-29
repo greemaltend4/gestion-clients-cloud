@@ -4,13 +4,13 @@
   "description": "Une application web pour la gestion des clients utilisant une intégration avec le service cloud pour le stockage des données.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo 'No tests specified' && exit 0"
+    "start": "node server.js",  // Démarre le serveur
+    "test": "echo 'No tests specified' && exit 0"  // Commande pour les tests, actuellement sans tests définis
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.9",
-    "dotenv": "^8.2.0",
-    "body-parser": "^1.19.0"
+    "express": "^4.17.1",  // Framework pour construire des applications web
+    "mongoose": "^5.10.9",  // ODM pour MongoDB
+    "dotenv": "^8.2.0",  // Gestion des variables d'environnement
+    "body-parser": "^1.19.0"  // Middleware pour parser les corps de requête
   }
 }
