@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#client-form {
+    margin-bottom: 20px;
+}
+
+#client-list {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+#clients li {
+    margin: 5px 0;
+}
